@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body> 
+        <fieldset> 
+            <legend>Datos del Usuario</legend>
+            <p>Nombre completo: <br> <input type="text" name="nombre" size="30" required> </p>
+            <p>Apellidos: <br> <input type="text" name="apellidos" size="30"  required></p>
+            <p>Edad: <br> <input type="number" name="edad" size="1" min="1" max="99" required></p>
+            <p>Codigo: <br> <input type="text" name="codigo" size="15" required> </p>
+            <p>Sexo: <br>
+                Hombre<input type="radio" name="hm" size="h" required>
+                Mujer<input type="radio" name="hm" size="m" required> 
+            </p>
+        </fieldset> 
+        
+        <fieldset> 
+            <legend>Curso</legend>
+            <p>Nombre del curso: <br> <input type="text" name="ncurso" size="30" placeholder="Tu curso favorito" required></p>
+            <p>Nombre del profesor: <br> <input type="text" name="nprofe" size="30" placeholder="Profesor del Curso" required></p>
+        </fieldset> 
+
+        <fieldset>
+            <legend>Opinión</legend>
+            <p>¿Porque?</p>
+            <p> <textarea name="comentario" id="1" cols="40" rows="10" placeholder="Dar razón"required> </textarea></p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </body>
+</html>
